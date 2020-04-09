@@ -6,26 +6,13 @@
 //  Copyright © 2020 渊博. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class YBtestCocoapodViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-         
-        // Do any additional setup after loading the view.
-      print("1231231232132131231")
+protocol YBtestCocoapodViewController {
+    func  yb_print(aaa : Any) -> Void
+}
+extension YBtestCocoapodViewController{
+    func yb_print(aaa : Any) -> Void {
+        print("渊博输出————"+"\(aaa)")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

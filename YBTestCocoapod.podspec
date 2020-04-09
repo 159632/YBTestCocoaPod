@@ -16,18 +16,17 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YBTestCocoapod"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of YBTestCocoapod."
+  spec.version      = "0.0.2"
+  spec.summary      = "渊博第一次测试提交私有库"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  # spec.description  = "测试描述"
 
-  spec.homepage     = "http://EXAMPLE/YBTestCocoapod"
+  spec.homepage     = "https://github.com/159632/YBTestCocoaPod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "" => "" }
+  spec.author             = { "1178396706@qq.com" => "1178396706@qq.com" }
   # Or just: spec.author    = ""
   # spec.authors            = { "" => "" }
   # spec.social_media_url   = "https://twitter.com/"
@@ -79,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/YBTestCocoapod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/159632/YBTestCocoaPod.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "YBTestCocoapod/YBtestCocoapodViewController.swift"
+
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
