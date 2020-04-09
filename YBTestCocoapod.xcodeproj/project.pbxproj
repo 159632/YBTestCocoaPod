@@ -15,6 +15,7 @@
 		1027403A243EC60200160DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10274038243EC60200160DC7 /* LaunchScreen.storyboard */; };
 		10274045243EC60200160DC7 /* YBTestCocoapodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10274044243EC60200160DC7 /* YBTestCocoapodTests.swift */; };
 		10274050243EC60200160DC7 /* YBTestCocoapodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1027404F243EC60200160DC7 /* YBTestCocoapodUITests.swift */; };
+		1027405E243ECA5300160DC7 /* YBtestCocoapodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1027405D243ECA5300160DC7 /* YBtestCocoapodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1027404B243EC60200160DC7 /* YBTestCocoapodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBTestCocoapodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1027404F243EC60200160DC7 /* YBTestCocoapodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBTestCocoapodUITests.swift; sourceTree = "<group>"; };
 		10274051243EC60200160DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1027405D243ECA5300160DC7 /* YBtestCocoapodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YBtestCocoapodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1027402D243EC60100160DC7 /* AppDelegate.swift */,
 				1027402F243EC60100160DC7 /* SceneDelegate.swift */,
 				10274031243EC60100160DC7 /* ViewController.swift */,
+				1027405D243ECA5300160DC7 /* YBtestCocoapodViewController.swift */,
 				10274033243EC60100160DC7 /* Main.storyboard */,
 				10274036243EC60200160DC7 /* Assets.xcassets */,
 				10274038243EC60200160DC7 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				10274032243EC60100160DC7 /* ViewController.swift in Sources */,
 				1027402E243EC60100160DC7 /* AppDelegate.swift in Sources */,
 				10274030243EC60100160DC7 /* SceneDelegate.swift in Sources */,
+				1027405E243ECA5300160DC7 /* YBtestCocoapodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
