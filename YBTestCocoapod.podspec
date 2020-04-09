@@ -16,7 +16,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YBTestCocoapod"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
+  spec.platform     = :ios, "9.0"
+  spec.swift_version ='4.0'
   spec.summary      = "渊博第一次测试提交私有库"
 
   # This description is used to generate tags and improve search results.
